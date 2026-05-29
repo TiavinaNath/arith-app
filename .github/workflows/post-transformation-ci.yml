@@ -30,7 +30,7 @@ jobs:
           set +e
 
           chmod +x gradlew
-          ./gradlew test
+          ./gradlew test --stacktrace
 
           EXIT_CODE=$?
           set -e
